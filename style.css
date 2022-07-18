@@ -224,6 +224,7 @@ hr {
 .ratingAndTime .rating-icon img {
     width: 12.25px;
     height: 11.75px;
+    margin-right: 3px;
 }
 
 .ratingAndTime>p {
@@ -252,4 +253,5 @@ hr {
 
 .time p {
     margin: 0;
+    margin-left: 5px;
 }
