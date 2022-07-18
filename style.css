@@ -71,7 +71,6 @@ nav ul li a {
 
 nav ul li a img {
     width: 51px;
-    /* height: 51px; */
     display: flex;
     align-items: center;
 }
@@ -254,4 +253,140 @@ hr {
 .time p {
     margin: 0;
     margin-left: 5px;
+}
+
+
+
+/* ====================================
+========= Responsive With Media =======
+====================================== */
+@media screen and (max-width: 480px) {
+    h2 {
+        text-align: center;
+    }
+
+    .header-area {
+        padding: 0 10px;
+    }
+
+    .logo-area h1 {
+        display: none;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    nav ul li a img {
+        display: none;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        display: block;
+    }
+
+    .blog img {
+        width: 80%;
+    }
+
+    .blog-info {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .letest-course {
+        padding-left: 10px;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .course {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .course img {
+        width: 100%;
+    }
+}
+
+
+/* Responsive for 481px*768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        display: block;
+    }
+
+
+    .blog img {
+        width: 80%;
+    }
+
+    .blog-info {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .course {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 25px;
+    }
+
+    .course img {
+        width: 100%;
+        height: 45%;
+    }
+}
+
+/* Responsive for 769px*856px */
+@media screen and (min-width: 769px) and (max-width: 850px) {
+    .course img {
+        width: 100%;
+        height: 35%;
+    }
 }
