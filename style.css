@@ -1,0 +1,255 @@
+/* ======== Google Fonts =========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* ======== Body =========== */
+body {
+    margin: 0;
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* =========== Common CSS =========== */
+.heading-title {
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* ===============================
+======== Header Section ===========
+================================ */
+header {
+    max-width: 1440px;
+    background-color: #562EFF;
+}
+
+.header-area {
+    max-width: 870px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-area {
+    display: flex;
+}
+
+.logo-area img {
+    width: 40.42px;
+    height: 51px;
+    margin-top: 26px;
+    margin-bottom: 17px;
+}
+
+.logo-area h1 {
+    font-size: 24px;
+    color: white;
+    margin-top: 33px;
+    margin-left: 15px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 36px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a img {
+    width: 51px;
+    /* height: 51px; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* ===============================
+======== Main Section ===========
+================================ */
+
+
+
+/* ----- Top Player Section ----- */
+.container {
+    max-width: 870px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.top-players {
+    margin-top: 36px;
+    padding: 33px 50px 1px 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player p {
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+hr {
+    width: 807px;
+    margin: 0 auto;
+}
+
+/* ----- Top Blog Section ----- */
+.top-blogs {
+    padding: 30px 50px 16px 30px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 31px;
+}
+
+.blog {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-info p {
+    color: #9F9F9F;
+}
+
+.blog-info p a {
+    color: #562EFF;
+    text-decoration: none;
+}
+
+.blog h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.blog p {
+    margin-top: 0;
+}
+
+
+/* ----- Letest Course Section ----- */
+.letest-course {
+    margin-top: 21px;
+    padding: 23px 36px 22px 28px;
+}
+
+.courses {
+    display: flex;
+}
+
+.course {
+    margin-top: 11px;
+    width: 252px;
+    min-height: 270px;
+    padding: 13px 16px 16px 12px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.course:first-child,
+.course:nth-child(2) {
+    margin-right: 23px;
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info h3 {
+    margin-top: 19px;
+    font-size: 18px;
+}
+
+.course-info>p {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+}
+
+.ratingAndTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingAndTime .rating-icon {
+    display: flex;
+    align-items: center;
+}
+
+.ratingAndTime .rating-icon img {
+    width: 12.25px;
+    height: 11.75px;
+}
+
+.ratingAndTime>p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14.6913px;
+    color: #A2A2A2;
+    display: flex;
+    align-items: center;
+}
+
+.ratingAndTime .time {
+    display: flex;
+    align-items: center;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    color: #FF4A60;
+    font-size: 14.6913px;
+    padding: 4px;
+}
+
+.ratingAndTime .time img {
+    width: 20px;
+    height: 20px;
+}
+
+.time p {
+    margin: 0;
+}
